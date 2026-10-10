@@ -1,4 +1,4 @@
-# Hi — Jimmy Hernandez here
+# Jimmy Hernandez
 
 Atlanta · Founder @ Razar Technologies
 
@@ -6,17 +6,12 @@ I build things and run them on iron I own.
 
 ## Currently
 
-**[SatPicks](https://satpicks.com)** — sports prediction contests. Players pick winners, climb leaderboards, and win real Bitcoin paid over Lightning. Nostr-native auth — no passwords, no email codes.
+**[SatPicks](https://satpicks.com)** — sports prediction contests with real Bitcoin prizes, paid over Lightning. Nostr-native auth, self-hosted down to the relay and the node.
 
-- **Production:** Fastify + Prisma + PostgreSQL · Vue 3 + Vite
-- **Payments:** self-hosted LND node, custom payout engine
-- **Decentralized:** own Nostr relay for in-app chat and bot presence
-- **AI lane:** a home DGX Spark cluster running our own serving stack — generation and research run locally, on premises
+Most product source stays private — the live app is the demo. Occasional tooling shows up here.
 
 ## How I work
 
-- Own the whole stack — models, node, relay, and data on hardware I control
-- Boring deploys: exact-commit releases, gates, smoke tests, verified rollback
+- Own the stack: models, node, relay, and data on hardware I control
+- Boring deploys: exact-commit releases, smoke tests, verified rollback
 - Ship small, prove it's live, log everything
-
-*Product source stays private by policy — the live app is the demo.*
